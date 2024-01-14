@@ -50,7 +50,6 @@ function some_timer_callback()
 		-- lx : Illuminance as floating point value [lx]
 	else
 		print("MAX44009 error")
-	else
 	end
 end
 ```
@@ -73,5 +72,5 @@ influx_url = "..."
 influx_attr = "..."
 ```
 
-Readings will be stored as `max44009[influx_attr] illuminance_lx=%f`.
+Readings will be published as `max44009[influx_attr] illuminance_lx=%f`.
 So, unless `influx_attr = ''`, it must start with a comma, e.g. `influx_attr = ',device=' .. device_id`.
