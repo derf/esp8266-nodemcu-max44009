@@ -1,9 +1,8 @@
 # ESP8266 Lua/NodeMCU module for MAX44009 illuminance sensors
 
-[esp8266-nodemcu-max44009](https://finalrewind.org/projects/esp8266-nodemcu-max44009/)
-provides an ESP8266 NodeMCU Lua module (`max44009.lua`) as well as MQTT /
-HomeAssistant / InfluxDB integration example (`init.lua`) for **MAX44009**
-illuminance sensors connected via I²C.
+This repository provides an ESP8266 NodeMCU Lua module (`max44009.lua`) as well
+as MQTT / HomeAssistant / InfluxDB integration example (`init.lua`) for
+**MAX44009** illuminance sensors connected via I²C.
 
 ## Dependencies
 
@@ -78,7 +77,7 @@ So, unless `influx_attr = ''`, it must start with a comma, e.g. `influx_attr = '
 
 ## References
 
-Mirrors of the esp8266-nodemcu-max44009 repository are maintained at the following locations:
+Mirrors of this repository are maintained at the following locations:
 
 * [Chaosdorf](https://chaosdorf.de/git/derf/esp8266-nodemcu-max44009)
 * [Finalrewind](https://git.finalrewind.org/derf/esp8266-nodemcu-max44009)
